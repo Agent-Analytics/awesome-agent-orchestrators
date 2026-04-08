@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://open-orchestrators.org/sitemap.xml
