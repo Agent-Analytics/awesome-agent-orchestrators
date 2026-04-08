@@ -68,6 +68,7 @@ const ogImageUrl = new URL(ogImage, Astro.site).toString();
   <body class="oo-page">
     <slot />
     <script
+      is:inline
       defer
       src="https://api.agentanalytics.sh/tracker.js"
       data-project="open-orchestrators"
