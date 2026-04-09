@@ -18,7 +18,6 @@ const formatStarCount = (stars: number) =>
         .toLowerCase();
 
 const { entry, delay = 0 } = Astro.props;
-const rankLabel = String(entry.rank).padStart(2, "0");
 const primaryLink = entry.links.find((link) => link.emphasis === "primary") ?? entry.links[0];
 const githubUrl = entry.githubRepo ? `https://github.com/${entry.githubRepo}` : null;
 const starCount = githubStars[entry.slug]?.stars;
@@ -34,7 +33,6 @@ const starLabel = typeof starCount === "number" ? formatStarCount(starCount) : n
 >
   <div class="directory-card__top">
     <div>
-      <p class="directory-card__kicker">{rankLabel}</p>
       <div class="directory-card__title-row">
         <h3 class="directory-card__title" id={`entry-${entry.slug}`}>{entry.title}</h3>
         <a

@@ -114,8 +114,7 @@ img {
 }
 
 .section-kicker,
-.directory-card__note-label,
-.directory-card__kicker {
+.directory-card__note-label {
   margin: 0;
   font-family: var(--font-mono);
   font-size: 0.73rem;
