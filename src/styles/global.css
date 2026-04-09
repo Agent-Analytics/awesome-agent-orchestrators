@@ -347,8 +347,9 @@ img {
 .directory-card__meta-link {
   display: inline-flex;
   align-items: center;
-  min-height: 22px;
-  padding: 0 8px;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: rgba(255, 252, 246, 0.72);
@@ -363,6 +364,11 @@ img {
 .directory-card__meta-link:hover {
   border-color: color-mix(in srgb, var(--card-accent) 32%, var(--line));
   background: color-mix(in srgb, var(--card-accent) 8%, rgba(255, 252, 246, 0.78));
+}
+
+.directory-card__meta-link svg {
+  width: 13px;
+  height: 13px;
 }
 
 .directory-card__title-link {

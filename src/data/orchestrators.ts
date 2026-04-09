@@ -295,5 +295,32 @@ export const orchestrators: OrchestratorEntry[] = [
         href: "https://github.com/FlowiseAI/Flowise"
       }
     ]
+  },
+  {
+    slug: "multica",
+    rank: 9,
+    title: "Multica",
+    githubRepo: "multica-ai/multica",
+    accent: "cyan",
+    mark: {
+      kind: "image",
+      src: "/logos/multica.svg",
+      label: "Multica logo"
+    },
+    summary:
+      "An open-source managed agents platform where coding agents act like teammates, take assigned issues, execute autonomously, and reuse shared skills over time.",
+    note: "Centers orchestration on issue boards, runtime daemons, and reusable skills for human-plus-agent teams.",
+    tags: ["managed agents", "issue tracking", "skills", "runtime dashboard"],
+    links: [
+      {
+        label: "Website",
+        href: "https://multica.ai/",
+        emphasis: "primary"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/multica-ai/multica"
+      }
+    ]
   }
 ];
