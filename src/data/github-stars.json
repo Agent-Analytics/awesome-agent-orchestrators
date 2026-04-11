@@ -1,46 +1,46 @@
 {
   "cabinet": {
-    "stars": 1039,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 1106,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "paperclip": {
-    "stars": 51043,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 51316,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "crewai": {
-    "stars": 48524,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 48552,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "openclaw": {
-    "stars": 353919,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 354234,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "sim": {
-    "stars": 27698,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 27707,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "culture": {
-    "stars": 35,
-    "fetchedAt": "2026-04-08T21:22:23Z"
+    "stars": 36,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "dify": {
-    "stars": 137094,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 137155,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "flowise": {
-    "stars": 51746,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 51759,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "multica": {
-    "stars": 5305,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 6210,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "orca": {
-    "stars": 574,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 593,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   },
   "gastown": {
-    "stars": 13794,
-    "fetchedAt": "2026-04-10T13:55:27.190Z"
+    "stars": 13838,
+    "fetchedAt": "2026-04-11T02:47:26.683Z"
   }
 }
