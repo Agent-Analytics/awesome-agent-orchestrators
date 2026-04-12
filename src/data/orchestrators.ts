@@ -377,5 +377,28 @@ export const orchestrators: OrchestratorEntry[] = [
         emphasis: "primary"
       }
     ]
+  },
+  {
+    slug: "hatch",
+    rank: 12,
+    title: "Hatch",
+    accent: "emerald",
+    mark: {
+      kind: "monogram",
+      value: "H",
+      label: "Hatch monogram"
+    },
+    summary:
+      "An AI work assistant and workspace for coordinating work across tasks, context, and execution.",
+    note:
+      "Represents the assistant-and-workspace branch of orchestration, where AI support is organized around ongoing work rather than one-off prompts.",
+    tags: ["AI work assistant", "workspace", "coordination"],
+    links: [
+      {
+        label: "Website",
+        href: "https://usehatch.com/",
+        emphasis: "primary"
+      }
+    ]
   }
 ];
