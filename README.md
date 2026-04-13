@@ -6,9 +6,10 @@
 
 The public website is [Open Orchestrators](https://openorchestrators.org/). This repo is intentionally narrow: it is not a general AI tools list. Projects belong here when orchestration is the product, not a side feature.
 
-## Latest Addition
+## Latest Additions
 
-- [SwarmClaw](https://www.swarmclaw.ai/) ([GitHub](https://github.com/swarmclawai/swarmclaw)) - Self-hosted AI agent runtime for autonomous agents, delegated work, schedules, provider management, and chat-platform connectors.
+- [Agno](https://agno.com/) ([GitHub](https://github.com/agno-agi/agno)) - Production runtime for agentic software with agents, teams, workflows, and AgentOS services.
+- [Mastra](https://mastra.ai/) ([GitHub](https://github.com/mastra-ai/mastra)) - TypeScript framework for agents, graph-based workflows, MCP servers, evals, observability, and production AI applications.
 
 ## Contents
 
@@ -37,8 +38,10 @@ Open Orchestrators is also a lightweight news site for meaningful updates from p
 
 ## Agent Platforms And Builders
 
+- [Agno](https://agno.com/) ([GitHub](https://github.com/agno-agi/agno)) - Production runtime for agentic software with agents, teams, workflows, and AgentOS services.
 - [Dify](https://dify.ai/) ([GitHub](https://github.com/langgenius/dify)) - Agentic workflow builder that combines workflows, chatflows, apps, and knowledge systems.
 - [Flowise](https://flowiseai.com/) ([GitHub](https://github.com/FlowiseAI/Flowise)) - Visual builder for AI agents and orchestration flows.
+- [Mastra](https://mastra.ai/) ([GitHub](https://github.com/mastra-ai/mastra)) - TypeScript framework for agents, graph-based workflows, MCP servers, evals, observability, and production AI applications.
 - [OpenClaw](https://openclaw.ai/) ([GitHub](https://github.com/openclaw/openclaw)) - Open-source personal AI assistant software built around chat, persistent context, skills, and execution.
 - [Sim](https://www.sim.ai/) ([GitHub](https://github.com/simstudioai/sim)) - Open-source AI agent platform for building agents with integrations, workflows, knowledge bases, and docs.
 - [SwarmClaw](https://www.swarmclaw.ai/) ([GitHub](https://github.com/swarmclawai/swarmclaw)) - Self-hosted AI agent runtime for autonomous agents, delegated work, schedules, provider management, and chat-platform connectors.

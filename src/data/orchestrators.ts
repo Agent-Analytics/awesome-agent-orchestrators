@@ -157,6 +157,14 @@ const swarmClawScreenshots = [
   screenshot("swarmclaw", "SwarmClaw", "SwarmClaw website", "https://www.swarmclaw.ai/")
 ];
 
+const agnoScreenshots = [
+  screenshot("agno", "Agno", "Agno website", "https://agno.com/")
+];
+
+const mastraScreenshots = [
+  screenshot("mastra", "Mastra", "Mastra website", "https://mastra.ai/")
+];
+
 export const orchestrators: OrchestratorEntry[] = [
   {
     slug: "cabinet",
@@ -724,6 +732,108 @@ export const orchestrators: OrchestratorEntry[] = [
       "Install Agent Analytics around the public surface SwarmClaw agents change first, then keep the activation event set small until the first loop is working.",
       "SwarmClaw task, shipped change, install intent, setup path, or activation event",
       swarmClawScreenshots
+    )
+  },
+  {
+    slug: "agno",
+    rank: 13,
+    title: "Agno",
+    githubRepo: "agno-agi/agno",
+    accent: "blue",
+    mark: {
+      kind: "monogram",
+      value: "Ag",
+      label: "Agno monogram"
+    },
+    summary:
+      "An open-source runtime for building, running, governing, and monitoring agents, teams, workflows, and AgentOS services in production.",
+    note:
+      "Centers orchestration on production agent runtimes, teams, workflows, memory, guardrails, and AgentOS operations.",
+    overview: [
+      "Agno is an open-source runtime for building, running, governing, and monitoring agents, teams, workflows, and AgentOS services.",
+      "It belongs in Open Orchestrators because it treats agents, teams, workflows, runtime serving, monitoring, approvals, and production control-plane concerns as connected parts of one agentic software system."
+    ],
+    bestFor: ["Production agent runtimes", "Agent teams and workflows", "AgentOS operations"],
+    tags: ["agent runtime", "workflows", "teams", "production"],
+    links: [
+      {
+        label: "Website",
+        href: "https://agno.com/",
+        emphasis: "primary"
+      },
+      {
+        label: "Docs",
+        href: "https://docs.agno.com/introduction"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/agno-agi/agno"
+      },
+      {
+        label: "PyPI",
+        href: "https://pypi.org/project/agno/"
+      }
+    ],
+    screenshots: agnoScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "agno",
+      "Agno",
+      "Agent Analytics gives Agno-managed agents, teams, workflows, and AgentOS services an external signal about whether their work changed user behavior.",
+      ["an Agno agent, team, or workflow ships a docs update, onboarding change, product improvement, support response, or workflow automation", "users encounter the changed surface through the website, app, docs, demo, community link, or internal workflow", "Agent Analytics records whether users take the next intended step", "a scheduled Agno workflow checks the outcome and proposes the next improvement"],
+      "Instrument the public or internal surface that the Agno system affects, then let the Agno workflow responsible for improvements review the measured outcome.",
+      "Agno workflow, AgentOS service, docs flow, onboarding path, or user-facing change",
+      agnoScreenshots
+    )
+  },
+  {
+    slug: "mastra",
+    rank: 14,
+    title: "Mastra",
+    githubRepo: "mastra-ai/mastra",
+    accent: "mint",
+    mark: {
+      kind: "monogram",
+      value: "Ma",
+      label: "Mastra monogram"
+    },
+    summary:
+      "An open-source TypeScript framework for building agents, graph-based workflows, MCP servers, evals, observability, and production AI applications.",
+    note:
+      "Centers orchestration on TypeScript agents, explicit workflows, human-in-the-loop suspension, MCP, evals, and observability.",
+    overview: [
+      "Mastra is an open-source TypeScript framework for building agents, graph-based workflows, MCP servers, evals, observability, and production AI applications.",
+      "It belongs in Open Orchestrators because it gives TypeScript teams structured primitives for agents, workflow state, branching, suspension and resume, and production application deployment."
+    ],
+    bestFor: ["TypeScript agent applications", "Graph-based workflows", "Human-in-the-loop workflow control"],
+    tags: ["typescript", "agents", "workflows", "observability"],
+    links: [
+      {
+        label: "Website",
+        href: "https://mastra.ai/",
+        emphasis: "primary"
+      },
+      {
+        label: "Docs",
+        href: "https://mastra.ai/docs"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/mastra-ai/mastra"
+      },
+      {
+        label: "npm",
+        href: "https://www.npmjs.com/package/@mastra/core"
+      }
+    ],
+    screenshots: mastraScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "mastra",
+      "Mastra",
+      "Agent Analytics connects Mastra agents and workflows to user-behavior outcomes after they change an app, docs flow, support path, or internal operations surface.",
+      ["a Mastra agent or workflow changes a page, docs flow, onboarding path, product surface, or support automation", "users encounter the changed surface through search, GitHub, social, docs, product navigation, or an internal task queue", "Agent Analytics records whether users continue to the next intended step", "a Mastra workflow reviews the event data and creates the next improvement task"],
+      "Instrument the TypeScript app, docs, demo, or workflow surface where Mastra creates user-facing change, then feed the outcome signal back into the workflow that owns the loop.",
+      "Mastra agent, workflow, app surface, onboarding path, or activation event",
+      mastraScreenshots
     )
   }
 ];
