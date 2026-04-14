@@ -1,58 +1,58 @@
 {
   "cabinet": {
-    "stars": 1244,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 1265,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "paperclip": {
-    "stars": 53113,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 53422,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "crewai": {
-    "stars": 48815,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 48857,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "openclaw": {
-    "stars": 356674,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 357096,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "sim": {
-    "stars": 27744,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 27752,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "culture": {
     "stars": 48,
     "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "dify": {
-    "stars": 137633,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 137732,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "flowise": {
-    "stars": 51869,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 51893,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "multica": {
-    "stars": 11341,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 12091,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "orca": {
-    "stars": 914,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 955,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "gastown": {
-    "stars": 13977,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 14000,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "swarmclaw": {
-    "stars": 333,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 338,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "agno": {
-    "stars": 39404,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 39414,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   },
   "mastra": {
-    "stars": 22973,
-    "fetchedAt": "2026-04-14T03:22:52.962Z"
+    "stars": 22994,
+    "fetchedAt": "2026-04-14T13:59:49.488Z"
   }
 }
