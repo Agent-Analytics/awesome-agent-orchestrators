@@ -1,58 +1,58 @@
 {
   "cabinet": {
-    "stars": 1227,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 1244,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "paperclip": {
-    "stars": 52966,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 53113,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "crewai": {
-    "stars": 48792,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 48815,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "openclaw": {
-    "stars": 356479,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 356674,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "sim": {
-    "stars": 27740,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 27744,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "culture": {
-    "stars": 45,
-    "fetchedAt": "2026-04-13T13:55:13.250Z"
+    "stars": 48,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "dify": {
-    "stars": 137590,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 137633,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "flowise": {
-    "stars": 51860,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 51869,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "multica": {
-    "stars": 10914,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 11341,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "orca": {
-    "stars": 898,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 914,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "gastown": {
-    "stars": 13961,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 13977,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "swarmclaw": {
-    "stars": 328,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 333,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "agno": {
-    "stars": 39402,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 39404,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   },
   "mastra": {
-    "stars": 22957,
-    "fetchedAt": "2026-04-13T20:37:26.265Z"
+    "stars": 22973,
+    "fetchedAt": "2026-04-14T03:22:52.962Z"
   }
 }
