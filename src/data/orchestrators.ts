@@ -233,15 +233,16 @@ export const orchestrators: OrchestratorEntry[] = [
       label: "Augment Code logo"
     },
     summary:
-      "Augment's answer to what comes after the IDE: a developer workspace where agents coordinate around living specs and isolated workspaces.",
+      "Augment's answer to what comes after the IDE: agent orchestration, isolated workspaces, and living specs in one developer workspace.",
     note:
-      "Centers orchestration on living specs, coordinated agents, isolated workspaces, and review inside one developer workspace.",
+      "Starts from Intent's three superpowers: coordinated agents, isolated workspaces, and specs that stay alive as work changes.",
     overview: [
-      "Augment Code describes Intent as what comes after the IDE: a developer workspace where agents coordinate around living specs and isolated workspaces.",
-      "It belongs in Open Orchestrators because its public product surface treats software work as a coordinated multi-agent system: a coordinator plans from a spec, specialist agents implement and verify, and the workspace keeps context, code, terminal, git, and review together."
+      "Augment Code describes Intent as what comes after the IDE: a developer workspace for agent orchestration, isolated git-worktree-backed workspaces, and living specs.",
+      "Its core workflow is coordinator, implementors, and verifier. The coordinator turns a task into a spec, implementors execute in waves, and the verifier checks the result against the spec before the developer reviews the work.",
+      "Intent also brings code, browser previews, terminal, git operations, model choice, Augment Context Engine, and BYOA support for Claude Code, Codex, and OpenCode into the same workspace."
     ],
-    bestFor: ["Spec-driven agent work", "Coordinated implementation and verification", "Isolated development workspaces"],
-    tags: ["agent workspace", "living specs", "multi-agent", "developer tools"],
+    bestFor: ["Agent orchestration", "Isolated workspaces", "Living specs"],
+    tags: ["agent orchestration", "isolated workspaces", "living specs", "post-IDE"],
     links: [
       {
         label: "Intent page",

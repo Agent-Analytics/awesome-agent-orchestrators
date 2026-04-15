@@ -1,10 +1,10 @@
 ---
-title: "Augment Code brings Intent, its post-IDE workspace, to Product Hunt"
-description: "Intent is Augment Code's answer to what comes after the IDE: a developer workspace with coordinated agents, living specs, isolated workspaces, and implementation-to-verification workflows."
+title: "Augment Code launches Intent, a post-IDE workspace for agent orchestration"
+description: "Intent starts from three product superpowers: agent orchestration, isolated workspaces, and living specs for developers coordinating multiple coding agents."
 date: 2026-04-15T12:40:44Z
 playerSlug: "augment-intent"
-sourceName: "Intent on Product Hunt"
-sourceUrl: "https://www.producthunt.com/products/augment-code"
+sourceName: "Augment Code Intent product page"
+sourceUrl: "https://www.augmentcode.com/product/intent"
 category: "Launch"
 tags:
   - orchestration
@@ -15,32 +15,31 @@ tags:
 draft: false
 ---
 
-Augment Code's Intent is live on Product Hunt today. Augment frames Intent as what comes after the IDE: a developer workspace for agent-driven development where a feature can be defined as a spec, then agents coordinate implementation and verification inside an isolated workspace with code, terminal, and git built in.
+Augment Code's Intent should be understood through the three product superpowers its launch demo leads with:
 
-This matters for Open Orchestrators readers because Intent is explicitly framed as a post-IDE agent orchestration surface, not only another code assistant. The official Intent page describes a workspace where agents are coordinated, specs stay alive, and every workspace is isolated. Augment's product blog adds the operating model: a coordinator agent proposes a plan as a spec, implementor agents work from that plan, and a verifier checks results against the spec before review.
+1. **Agent orchestration.** Intent has a coordinator agent that turns a task into a spec, delegates work to implementor agents that can run in waves, and uses a verifier agent to check the result against the spec before the developer reviews it.
+2. **Isolated workspaces.** Each Intent workspace is backed by its own git worktree, with agents, terminals, diffs, browser previews, git operations, and review state kept together so multiple tasks can move without stepping on each other.
+3. **Living specs.** Work starts from a spec that stays current as agents make progress. Requirements, implementation state, and decisions stay aligned instead of drifting across prompts, terminals, branches, and PR notes.
 
-The category signal is the living spec. Intent puts the spec at the center of the development loop so agents and humans can share a current source of truth while work changes underneath them. That is different from simply running several coding agents side by side and manually tracking prompts, terminals, branches, and review state.
+That is why Augment calls Intent "what comes after the IDE." The product is not just another chat panel for writing code faster. It is a developer workspace for coordinating multiple agents on a real codebase while keeping the plan, files, terminal, browser, git workflow, and review loop in one place.
 
-For builders using Agent Analytics, the connection is the same one that matters for any high-velocity agent workflow: Intent can help ship product changes faster, but the growth loop still needs measurement. Agent Analytics should track whether the pages, docs, onboarding paths, app screens, demos, or launch flows created with Intent are bringing visitors toward signup, activation, retention, and conversion.
+The launch blog describes the operating model clearly: the developer defines the task, reviews the coordinator's plan, approves the spec, then lets agents execute in parallel. Intent also supports specialist agents, model choice by task, Augment's Context Engine, and BYOA workflows with Claude Code, Codex, and OpenCode.
 
-Example task:
+For Open Orchestrators, the important category signal is that Intent treats multi-agent development as a coordinated system instead of a swarm of independent prompts. The developer is not only asking agents to write code; they are managing intent, delegation, workspace isolation, verification, and merge readiness.
 
-```text
-After this Intent-built launch or product change ships, compare the last 7 days against the prior 7 days. Report visits, sources, signup, activation, retention, conversion, and the largest drop-off. Tell me which page, docs path, onboarding step, app screen, or demo is creating growth, and what I should improve next.
-```
+Intent is available as a public beta for macOS. During beta, Augment says it uses regular Augment credits with no separate Intent pricing, and developers can also bring Claude Code, Codex, or OpenCode if they want to try the workspace without an Augment subscription.
 
 ## Source Confidence
 
-High for the launch and product-positioning details. The Product Hunt page lists Intent as launching today, and Augment's official Intent page and product blog describe the coordinated-agent, living-spec, isolated-workspace model.
+High for the product-positioning details. Augment's official Intent product page and launch blog describe the public beta, post-IDE positioning, coordinated-agent workflow, isolated workspaces, living specs, built-in browser/terminal/git workflow, model choice, Context Engine, and BYOA support.
 
 ## Evidence
 
-- [Intent on Product Hunt](https://www.producthunt.com/products/augment-code)
 - [Augment Code Intent product page](https://www.augmentcode.com/product/intent)
 - [Augment Code blog: Intent, a workspace for agent orchestration](https://www.augmentcode.com/blog/intent-a-workspace-for-agent-orchestration)
+- [Intent on Product Hunt](https://www.producthunt.com/products/augment-code)
 
 ## Explicit Non-Claims
 
 - This update does not claim benchmarked productivity gains from Intent.
-- This update does not claim Intent replaces product analytics, conversion tracking, or growth measurement.
 - This update does not rely on a private or unauthenticated X view as the source of record.
