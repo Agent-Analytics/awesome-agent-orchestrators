@@ -83,13 +83,13 @@ export const orchestrationTools: OrchestrationToolEntry[] = [
     slug: "agent-analytics",
     title: "Agent Analytics",
     url: "https://agentanalytics.sh/",
-    sourceName: "Agent Analytics website",
+    sourceName: "Agent Analytics landing page",
     mark: "AA",
     summary:
-      "Agent-friendly web analytics for the websites, docs, apps, onboarding paths, demos, and launches built with AI agents.",
+      "Web analytics for builders that Claude Code, Codex, Cursor, OpenClaw, Paperclip, and similar AI agents can use.",
     note:
-      "Gives agents a skill, CLI, MCP, API, and tracker path to measure visitors, sources, signup, activation, retention, conversion, and growth.",
-    tags: ["analytics", "growth loop", "agent skill"]
+      "Exposes traffic, usage, sources, funnels, conversions, projects, stats, and experiments through plugin, skill, MCP, CLI/npx, and API so agents can set up tracking, verify events, brief you, find conversion leaks, and run growth experiments without a dashboard-first workflow.",
+    tags: ["web analytics", "agent surface", "plugin skill MCP CLI API"]
   },
   {
     slug: "companies-sh",
