@@ -10,7 +10,6 @@ tags:
   - orchestration
   - coding-agents
   - living-specs
-  - product-hunt
   - developer-tools
 draft: false
 ---
@@ -37,7 +36,7 @@ High for the product-positioning details. Augment's official Intent product page
 
 - [Augment Code Intent product page](https://www.augmentcode.com/product/intent)
 - [Augment Code blog: Intent, a workspace for agent orchestration](https://www.augmentcode.com/blog/intent-a-workspace-for-agent-orchestration)
-- [Intent on Product Hunt](https://www.producthunt.com/products/augment-code)
+- [Support Intent on Product Hunt](https://www.producthunt.com/products/augment-code)
 
 ## Explicit Non-Claims
 
