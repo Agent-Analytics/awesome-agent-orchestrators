@@ -169,6 +169,10 @@ const supersetScreenshots = [
   screenshot("superset", "Superset", "Superset website", "https://superset.sh/")
 ];
 
+const augmentIntentScreenshots = [
+  screenshot("augment-intent", "Augment Code Intent", "Augment Code Intent page", "https://www.augmentcode.com/product/intent")
+];
+
 export const orchestrators: OrchestratorEntry[] = [
   {
     slug: "superset",
@@ -219,8 +223,54 @@ export const orchestrators: OrchestratorEntry[] = [
     )
   },
   {
-    slug: "paperclip",
+    slug: "augment-intent",
     rank: 2,
+    title: "Augment Code Intent",
+    accent: "emerald",
+    mark: {
+      kind: "image",
+      src: "/logos/augment-code.svg",
+      label: "Augment Code logo"
+    },
+    summary:
+      "A developer workspace for agent-driven development where a coordinator creates living specs and delegates implementation and verification to agents.",
+    note:
+      "Centers orchestration on living specs, coordinated agents, isolated workspaces, and review inside one developer workspace.",
+    overview: [
+      "Augment Code Intent is a developer workspace where agents coordinate around living specs and isolated workspaces.",
+      "It belongs in Open Orchestrators because its public product surface treats software work as a coordinated multi-agent system: a coordinator plans from a spec, specialist agents implement and verify, and the workspace keeps context, code, terminal, git, and review together."
+    ],
+    bestFor: ["Spec-driven agent work", "Coordinated implementation and verification", "Isolated development workspaces"],
+    tags: ["agent workspace", "living specs", "multi-agent", "developer tools"],
+    links: [
+      {
+        label: "Intent page",
+        href: "https://www.augmentcode.com/product/intent",
+        emphasis: "primary"
+      },
+      {
+        label: "Product Hunt",
+        href: "https://www.producthunt.com/products/augment-code"
+      },
+      {
+        label: "Blog",
+        href: "https://www.augmentcode.com/blog/intent-a-workspace-for-agent-orchestration"
+      }
+    ],
+    screenshots: augmentIntentScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "augment-intent",
+      "Augment Code Intent",
+      "Intent helps builders coordinate agents around specs and ship product work faster. Agent Analytics shows whether that shipped work brings more visitors, conversion, activation, retention, and growth.",
+      ["a builder uses Intent to ship a page, docs path, onboarding change, app screen, demo, or growth experiment", "users arrive from Product Hunt, search, GitHub, launch posts, docs, referrals, campaigns, or product navigation", "Agent Analytics measures visits, sources, signup, activation, retention, funnels, and conversion events", "the builder uses measured user behavior to decide which spec, page, or product path should improve next"],
+      "Install Agent Analytics on the project surface Intent helps you ship. The spec and agent workflow increase velocity; the analytics loop proves whether visitors move toward value.",
+      "page, traffic source, signup, activation event, funnel step, retention signal, or growth experiment",
+      augmentIntentScreenshots
+    )
+  },
+  {
+    slug: "paperclip",
+    rank: 3,
     title: "Paperclip",
     githubRepo: "paperclipai/paperclip",
     accent: "amber",
@@ -276,7 +326,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "crewai",
-    rank: 3,
+    rank: 4,
     title: "CrewAI",
     githubRepo: "crewAIInc/crewAI",
     accent: "violet",
@@ -326,7 +376,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "openclaw",
-    rank: 4,
+    rank: 5,
     title: "OpenClaw",
     githubRepo: "openclaw/openclaw",
     accent: "orange",
@@ -374,7 +424,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "sim",
-    rank: 5,
+    rank: 6,
     title: "Sim",
     githubRepo: "simstudioai/sim",
     accent: "emerald",
@@ -421,7 +471,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "culture",
-    rank: 6,
+    rank: 7,
     title: "Culture",
     githubRepo: "OriNachum/culture",
     accent: "sky",
@@ -472,7 +522,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "cabinet",
-    rank: 7,
+    rank: 8,
     title: "Cabinet",
     githubRepo: "hilash/cabinet",
     featured: true,
@@ -525,7 +575,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "dify",
-    rank: 8,
+    rank: 9,
     title: "Dify",
     githubRepo: "langgenius/dify",
     accent: "blue",
@@ -571,7 +621,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "flowise",
-    rank: 9,
+    rank: 10,
     title: "Flowise",
     githubRepo: "FlowiseAI/Flowise",
     accent: "mint",
@@ -617,7 +667,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "multica",
-    rank: 10,
+    rank: 11,
     title: "Multica",
     githubRepo: "multica-ai/multica",
     accent: "cyan",
@@ -659,7 +709,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "orca",
-    rank: 11,
+    rank: 12,
     title: "Orca",
     githubRepo: "stablyai/orca",
     accent: "amber",
@@ -702,7 +752,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "gastown",
-    rank: 12,
+    rank: 13,
     title: "Gas Town",
     githubRepo: "gastownhall/gastown",
     accent: "orange",
@@ -741,7 +791,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "swarmclaw",
-    rank: 13,
+    rank: 14,
     title: "SwarmClaw",
     githubRepo: "swarmclawai/swarmclaw",
     accent: "emerald",
@@ -788,7 +838,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "agno",
-    rank: 14,
+    rank: 15,
     title: "Agno",
     githubRepo: "agno-agi/agno",
     accent: "blue",
@@ -839,7 +889,7 @@ export const orchestrators: OrchestratorEntry[] = [
   },
   {
     slug: "mastra",
-    rank: 15,
+    rank: 16,
     title: "Mastra",
     githubRepo: "mastra-ai/mastra",
     accent: "mint",
