@@ -8,6 +8,7 @@ The public website is [Open Orchestrators](https://openorchestrators.org/). This
 
 ## Latest Additions
 
+- [Code Atelier Governance SDK](https://www.codeatelier.tech/governance) - Python SDK for pre-execution agent governance gates: scope checks, budgets, approvals, loop detection, halt/presence handling, and tamper-evident Postgres audit trails.
 - [Squad](https://bradygaster.github.io/squad/) ([GitHub](https://github.com/bradygaster/squad)) - Alpha GitHub Copilot-based agent team system with repo-native specialist agents, persistent memory, coordinator routing, parallel work, and CLI/SDK packages.
 - [Lanes](https://lanes.sh/) - macOS workspace where Claude Code, Codex, Gemini CLI, and other agentic CLIs run parallel sessions with PTYs, boards, worktrees, diffs, and resume.
 - [SIDJUA](https://www.sidjua.com/) ([GitHub](https://github.com/GoetzKohlberg/sidjua)) - Governance-first AI agent orchestration platform with pre-action controls, budgets, approvals, classifications, and audit trails.
@@ -85,6 +86,7 @@ Tools that are not orchestrators themselves, but make multi-agent systems easier
 
 - [Agent Analytics](https://agentanalytics.sh/) - Web analytics for builders that Claude Code, Codex, Cursor, OpenClaw, Paperclip, and similar AI agents can use.
 - [ClawTrace](https://www.clawtrace.ai/?ref=producthunt) - Observability for OpenClaw agents that shows what failed, where spend leaked, and how to improve runs.
+- [Code Atelier Governance SDK](https://www.codeatelier.tech/governance) - Python SDK for pre-execution governance gates around AI agents, backed by Postgres.
 - [Companies.sh](https://companies.sh/) - Reusable companies for AI agents: pre-built organizations that can be installed with a single command.
 
 ## Implementation Services

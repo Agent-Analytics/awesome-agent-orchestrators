@@ -125,6 +125,18 @@ export const orchestrationTools: OrchestrationToolEntry[] = [
     tags: ["observability", "OpenClaw", "tracing"]
   },
   {
+    slug: "code-atelier-governance",
+    title: "Code Atelier Governance SDK",
+    url: "https://www.codeatelier.tech/governance",
+    sourceName: "Code Atelier Governance docs",
+    mark: "CA",
+    summary:
+      "Open-source Python SDK for pre-execution governance gates around AI agents, backed by Postgres.",
+    note:
+      "Adds scope checks, budget caps, human approval tokens, loop detection, agent presence and halt handling, behavioral contracts, and HMAC-chained audit trails for actions routed through the SDK. Tracked as agent-friendly tooling, not an orchestrator runtime.",
+    tags: ["governance", "agent safety", "approvals", "audit trail", "Postgres", "Python"]
+  },
+  {
     slug: "lanes",
     title: "Lanes",
     url: "https://lanes.sh/",
