@@ -40,6 +40,7 @@ Tools for running multiple coding agents simultaneously, usually with git worktr
 - [Multica](https://multica.ai/) ([GitHub](https://github.com/multica-ai/multica)) - Managed agents platform where coding agents act like teammates, take issues, and reuse shared skills.
 - [Orca](https://www.onorca.dev/) ([GitHub](https://github.com/stablyai/orca)) - Desktop environment for running multiple coding agents safely in parallel across worktrees.
 - [Superset](https://superset.sh/) ([GitHub](https://github.com/superset-sh/superset)) - Local code editor and control plane for parallel CLI coding agents across isolated git worktrees.
+- [Lanes](https://lanes.sh) - Workspace where Claude Code, Codex, and other agentic CLI run parallel sessions without getting in each other's way.
 
 ## Multi-Agent Platforms And Builders
 
@@ -61,7 +62,6 @@ Systems where the central object is the team, company, room, protocol, role, goa
 - [CrewAI](https://www.crewai.com/) ([GitHub](https://github.com/crewAIInc/crewAI)) - Multi-agent system organized around specialized crews, roles, and delegation.
 - [Culture](https://culture.dev/) ([GitHub](https://github.com/OriNachum/culture)) - Coordination-oriented system with rooms, protocol docs, agent lifecycle patterns, and multiple clients.
 - [Paperclip](https://paperclip.ing/) ([GitHub](https://github.com/paperclipai/paperclip)) - Open-source orchestration for zero-human companies, centered on AI employees, goals, and jobs.
-- [Lanes](https://lanes.sh) - Workspace where Claude Code, Codex, and other agentic CLI run parallel sessions without getting in each other's way.
 
 ## Not Open But Important
 
