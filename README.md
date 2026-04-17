@@ -4,7 +4,7 @@
 
 [Website](https://openorchestrators.org/) • [Contributing](./CONTRIBUTING.md)
 
-The public website is [Open Orchestrators](https://openorchestrators.org/). This repo is intentionally narrow: it is not a general AI tools list. Projects belong here when multi-agent coordination, parallel agent execution, agent workflows, or agent-centered operating systems are the product, not a side feature. Governance and enforcement layers are tracked separately when they control agent actions, permissions, approvals, budgets, or audit trails without acting as the orchestrator itself.
+The public website is [Open Orchestrators](https://openorchestrators.org/). This repo is intentionally narrow: it is not a general AI tools list. Projects belong here when multi-agent coordination, parallel agent execution, agent workflows, or agent-centered operating systems are the product, not a side feature. Governance and enforcement layers are tracked separately when they control agent actions, permissions, approvals, budgets, trust, settlement, or audit trails without acting as the orchestrator itself.
 
 ## Latest Additions
 
@@ -16,6 +16,7 @@ The public website is [Open Orchestrators](https://openorchestrators.org/). This
 - [Lanes](https://lanes.sh/) - macOS workspace where Claude Code, Codex, Gemini CLI, and other agentic CLIs run parallel sessions with PTYs, boards, worktrees, diffs, and resume.
 - [SIDJUA](https://www.sidjua.com/) ([GitHub](https://github.com/GoetzKohlberg/sidjua)) - Governance-first AI agent orchestration platform with pre-action controls, budgets, approvals, classifications, and audit trails.
 - [Agentix Labs](https://www.agentixlabs.com/) - First implementation services entry, tracked separately from orchestrators because it helps teams deploy and harden production agent systems.
+- [SettleBridge](https://settlebridge.ai/) ([GitHub org](https://github.com/a2a-settlement)) - Trust and policy gateway for agent-to-agent settlement, reputation checks, spending limits, provenance requirements, escrow, dispute resolution, marketplace bounties, and cryptographic audit trails.
 
 ## Contents
 
@@ -86,13 +87,14 @@ Tools that manage parallel CLI-agent sessions, terminals, issue boards, worktree
 
 ## Governance And Enforcement
 
-Policy, permission, approval, budget, and audit layers that sit between agent intent and execution. These are not orchestrators themselves; they govern actions routed through an orchestrator, framework, coding agent, MCP server, or application runtime.
+Policy, permission, approval, budget, trust, reputation, settlement, and audit layers that sit between agent intent and execution. These are not orchestrators themselves; they govern actions routed through an orchestrator, framework, coding agent, MCP server, marketplace, exchange, or application runtime.
 
-### Open-source governance tools
+### Open and open-core governance tools
 
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - MIT-licensed runtime governance toolkit for AI agents with deterministic policy enforcement, zero-trust identity, execution sandboxing, SRE controls, and compliance checks.
 - [Code Atelier Governance SDK](https://www.codeatelier.tech/governance) - Python SDK for pre-execution governance gates around AI agents, backed by Postgres.
 - [Veto](https://veto.so/) ([GitHub](https://github.com/PlawIO/veto)) - Apache-2.0 authorization layer for AI agent tool calls, with TypeScript and Python SDKs, YAML policies, approval routing, and audit logs. Veto Cloud is commercial.
+- [SettleBridge](https://settlebridge.ai/) ([GitHub org](https://github.com/a2a-settlement)) - Trust and policy gateway for agent-to-agent settlement, including reputation thresholds, spending limits, provenance requirements, escrow, dispute resolution, marketplace bounties, and cryptographic audit trails. The related A2A Settlement repo is MIT-licensed; SettleBridge's public license metadata is not fully consistent yet.
 
 ### Commercial and platform governance layers
 

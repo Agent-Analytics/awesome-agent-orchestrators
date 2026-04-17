@@ -198,6 +198,19 @@ export const governanceTools: OrchestrationToolEntry[] = [
       "Tracks LLM and MCP calls, controls which agents can access external systems with fine-grained permissions and on-behalf-of access, and adds observability, cost attribution, guardrails, fallback models, and rate limits. Included as a commercial governance layer, not an open-source toolkit.",
     tags: ["commercial platform", "MCP governance", "Unity Catalog", "LLM gateway", "observability", "guardrails"],
     ctaLabel: "Open governance tool"
+  },
+  {
+    slug: "settlebridge",
+    title: "SettleBridge",
+    url: "https://settlebridge.ai/",
+    sourceName: "SettleBridge website",
+    mark: "SB",
+    summary:
+      "Trust and policy enforcement gateway for agent-to-agent settlement, reputation, spending limits, provenance, escrow, and audit trails.",
+    note:
+      "Sits between agents and an A2A Settlement Exchange so settlement requests can be governed by reputation thresholds, spend caps, provenance requirements, health checks, alerts, and cryptographic audit logs. The related A2A Settlement repo is MIT-licensed; SettleBridge's public license metadata is inconsistent across the website, README badge, and GitHub detection, so it is tracked as a trust governance layer rather than a clean OSS claim.",
+    tags: ["trust layer", "settlement", "reputation", "escrow", "audit trail", "agent marketplace"],
+    ctaLabel: "Open governance tool"
   }
 ];
 
