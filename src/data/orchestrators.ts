@@ -340,6 +340,10 @@ const supersetScreenshots = [
   screenshot("superset", "Superset", "Superset website", "https://superset.sh/")
 ];
 
+const vibeKanbanScreenshots = [
+  screenshot("vibe-kanban", "Vibe Kanban", "Vibe Kanban website", "https://vibekanban.com/")
+];
+
 const augmentIntentScreenshots = [
   screenshot("augment-intent", "Augment Code Intent", "Augment Code Intent page", "https://www.augmentcode.com/product/intent")
 ];
@@ -391,6 +395,68 @@ export const orchestrators: OrchestratorEntry[] = [
       "Install Agent Analytics on the project surface Superset helps you ship. The branch, worktree, or agent setup is secondary; the useful loop is that a later agent can read user behavior after the change lands.",
       "page, traffic source, signup, activation event, funnel step, retention signal, or growth experiment",
       supersetScreenshots
+    )
+  },
+  {
+    slug: "vibe-kanban",
+    rank: 20,
+    title: "Vibe Kanban",
+    githubRepo: "BloopAI/vibe-kanban",
+    accent: "mint",
+    mark: {
+      kind: "image",
+      src: "/logos/vibe-kanban.png",
+      label: "Vibe Kanban logo"
+    },
+    summary:
+      "An open-source Kanban workspace for planning, running, reviewing, and shipping parallel coding-agent work.",
+    note:
+      "Centers orchestration on issue planning, coding-agent workspaces, branches, terminals, dev servers, diff review, browser preview, inline feedback, PR creation, and merge flow.",
+    overview: [
+      "Vibe Kanban is an Apache-2.0 open-source workspace for teams and individuals running coding agents such as Claude Code, Codex, Gemini CLI, GitHub Copilot, Amp, Cursor, OpenCode, Droid, CCR, and Qwen Code.",
+      "Its workflow starts from Kanban issues, then creates workspaces where agents get a branch, terminal, and dev server. Operators can review diffs, leave inline comments, preview the app in a built-in browser, open pull requests, and merge finished work.",
+      "It belongs in Open Orchestrators because the product focuses on the human planning and review layer around parallel coding agents rather than a single chat session or editor extension."
+    ],
+    bestFor: ["Planning coding-agent work", "Parallel agent workspaces", "Review, preview, and PR flow"],
+    tags: ["coding agents", "kanban", "workspaces", "diff review", "open source"],
+    links: [
+      {
+        label: "Website",
+        href: "https://vibekanban.com/",
+        emphasis: "primary"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/BloopAI/vibe-kanban"
+      },
+      {
+        label: "Docs",
+        href: "https://vibekanban.com/docs"
+      },
+      {
+        label: "npm",
+        href: "https://www.npmjs.com/package/vibe-kanban"
+      }
+    ],
+    screenshots: vibeKanbanScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "vibe-kanban",
+      "Vibe Kanban",
+      "Vibe Kanban helps builders plan, run, review, and ship coding-agent work. Agent Analytics gives the follow-up agent visitor, source, funnel, and conversion data after those changes reach users.",
+      ["a builder uses Vibe Kanban to plan an issue and run one or more coding agents in workspaces", "the selected branch ships to the website, docs, app, onboarding path, demo, or product surface", "the changed surface reports visits, sources, CTA clicks, signup, activation, retention, funnels, and experiment events to Agent Analytics", "a follow-up agent fetches the Agent Analytics results and turns user behavior into the next issue, review comment, or experiment"],
+      "Install Agent Analytics on the surfaces Vibe Kanban helps ship. The useful loop starts after the agent-built change lands: a later agent can fetch the measured user outcome and decide what to improve next.",
+      "Vibe Kanban-built page, traffic source, CTA click, signup, activation event, funnel step, experiment, or shipped branch",
+      vibeKanbanScreenshots,
+      [
+        {
+          label: "Agent Analytics MCP",
+          href: "https://mcp.agentanalytics.sh/mcp"
+        },
+        {
+          label: "Agent Analytics API docs",
+          href: "https://docs.agentanalytics.sh/api/"
+        }
+      ]
     )
   },
   {

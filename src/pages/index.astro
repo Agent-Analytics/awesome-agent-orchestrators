@@ -11,22 +11,33 @@ import {
   orchestrationTools,
   siteMeta
 } from "../data/orchestrators";
+import githubStars from "../data/github-stars.json";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getPublishedNewsPosts } from "../lib/news";
 
-const byRank = (
+const starCountFor = (entry: (typeof orchestrators)[number]) =>
+  githubStars[entry.slug as keyof typeof githubStars]?.stars ?? -1;
+const byGithubStars = (
   a: (typeof orchestrators)[number],
   b: (typeof orchestrators)[number]
-) => a.rank - b.rank;
+) => {
+  const starDifference = starCountFor(b) - starCountFor(a);
+
+  if (starDifference !== 0) {
+    return starDifference;
+  }
+
+  return a.rank - b.rank;
+};
 const openOrchestrators = orchestrators
   .filter((entry) => entry.visibility !== "not-open-important")
   .slice()
-  .sort(byRank);
+  .sort(byGithubStars);
 const importantNotOpenOrchestrators = orchestrators
   .filter((entry) => entry.visibility === "not-open-important")
   .slice()
-  .sort(byRank);
-const rankedOrchestrators = orchestrators.slice().sort(byRank);
+  .sort(byGithubStars);
+const rankedOrchestrators = orchestrators.slice().sort(byGithubStars);
 const totalEntries = orchestrators.length;
 const newsPosts = await getPublishedNewsPosts();
 const featuredNews = newsPosts[0];
@@ -42,9 +53,9 @@ const jsonLd = {
     "@type": "ItemList",
     name: "Open Orchestrators directory",
     numberOfItems: totalEntries,
-    itemListElement: rankedOrchestrators.map((entry) => ({
+    itemListElement: rankedOrchestrators.map((entry, index) => ({
       "@type": "ListItem",
-      position: entry.rank,
+      position: index + 1,
       name: entry.title,
       url: new URL(`/players/${entry.slug}/`, siteMeta.canonicalUrl).toString()
     }))
@@ -159,7 +170,7 @@ const jsonLd = {
             <p class="section-kicker">Directory</p>
             <h2>Multi-agent orchestration platforms.</h2>
             <p class="section-intro">
-              Open-source or publicly documented systems where orchestration is central to the product.
+              Open-source or publicly documented systems where orchestration is central to the product, sorted by GitHub stars when available.
             </p>
           </div>
         </div>
