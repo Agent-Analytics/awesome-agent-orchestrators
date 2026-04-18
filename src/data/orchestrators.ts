@@ -348,6 +348,10 @@ const augmentIntentScreenshots = [
   screenshot("augment-intent", "Augment Code Intent", "Augment Code Intent page", "https://www.augmentcode.com/product/intent")
 ];
 
+const crewletScreenshots = [
+  screenshot("crewlet", "Crewlet", "Crewlet website", "https://www.crewlet.io/")
+];
+
 export const orchestrators: OrchestratorEntry[] = [
   {
     slug: "superset",
@@ -529,6 +533,55 @@ export const orchestrators: OrchestratorEntry[] = [
         }
       ]
     }
+  },
+  {
+    slug: "crewlet",
+    rank: 22,
+    title: "Crewlet",
+    visibility: "not-open-important",
+    accent: "sky",
+    mark: {
+      kind: "image",
+      src: "/logos/crewlet.svg",
+      label: "Crewlet logo",
+      surface: "dark"
+    },
+    summary:
+      "A closed autonomous company OS for running daily operations with a self-improving multi-agent growth team.",
+    note:
+      "Not open-source; tracked as an important category signal because Crewlet frames multi-agent orchestration as an operating layer for growth, engineering, support, and data work across existing company tools.",
+    overview: [
+      "Crewlet describes itself as an autonomous company OS and multi-agent platform for daily business operations.",
+      "Its public site frames the product around a self-improving AI growth team with persistent memory, tool access, company learning, autonomous actions, and continuous learning loops.",
+      "It belongs in the not-open-important section because it shows the same category movement as other closed agent operating systems: agent teams connected to real business systems, with human review or auto-run paths."
+    ],
+    bestFor: ["Autonomous growth operations", "Tool-connected business workflows", "Closed company OS signals"],
+    tags: ["not open", "company OS", "growth agents", "tool automation"],
+    links: [
+      {
+        label: "Website",
+        href: "https://www.crewlet.io/",
+        emphasis: "primary"
+      },
+      {
+        label: "Official X",
+        href: "https://x.com/crewlet_"
+      },
+      {
+        label: "Founder X",
+        href: "https://x.com/jasonzhou1993"
+      }
+    ],
+    screenshots: crewletScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "crewlet",
+      "Crewlet",
+      "Crewlet focuses on autonomous growth operations and tool-connected business work. Agent Analytics gives the human or agent team a direct source of web, funnel, source, activation, and conversion data for the surfaces Crewlet changes or reports on.",
+      ["Crewlet plans or runs a growth, support, data, or engineering operation that affects a website, docs page, onboarding path, campaign, or product surface", "the affected surface reports visits, sources, CTA clicks, signup starts, completed signups, activation events, funnel steps, or conversion events to Agent Analytics", "a human or follow-up agent fetches the Agent Analytics outcome data", "the next Crewlet operation is adjusted from measured user behavior instead of only internal task completion"],
+      "Use Agent Analytics around the public or product surfaces affected by Crewlet's operations. Agent Analytics is not a replacement for Crewlet's internal memory or operational logs; it supplies user-facing outcome data that agents can query later.",
+      "Crewlet-run campaign, landing page, traffic source, CTA click, signup, activation event, funnel step, support path, or conversion event",
+      crewletScreenshots
+    )
   },
   {
     slug: "paperclip",

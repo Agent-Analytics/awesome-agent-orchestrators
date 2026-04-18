@@ -8,6 +8,7 @@ The public website is [Open Orchestrators](https://openorchestrators.org/). This
 
 ## Latest Additions
 
+- [Crewlet](https://www.crewlet.io/) ([X](https://x.com/crewlet_)) - Closed autonomous company OS for a self-improving multi-agent growth team with persistent memory, tool access, human review, and auto-run paths.
 - [Vibe Kanban](https://vibekanban.com/) ([GitHub](https://github.com/BloopAI/vibe-kanban)) - Apache-2.0 Kanban workspace for planning, running, reviewing, previewing, and shipping parallel coding-agent work across Claude Code, Codex, Gemini CLI, OpenCode, and related agents.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - MIT-licensed runtime governance toolkit for AI agents with deterministic policy enforcement, zero-trust identity, execution sandboxing, SRE controls, and compliance checks.
 - [Databricks Unity AI Gateway](https://www.databricks.com/blog/ai-gateway-governance-layer-agentic-ai) - Commercial Databricks platform layer for governing LLM access, MCP servers, APIs, observability, costs, guardrails, fallbacks, and rate limits in agentic AI workflows.
@@ -79,6 +80,7 @@ Systems where the central object is the team, company, room, protocol, role, goa
 
 Closed products that are not part of the open directory, but matter to the community because they influence how builders think about multi-agent orchestration.
 
+- [Crewlet](https://www.crewlet.io/) ([X](https://x.com/crewlet_)) - Not open-source; included because it frames a self-improving multi-agent company OS for growth, engineering, support, and data operations across existing tools.
 - [Augment Code Intent](https://www.augmentcode.com/product/intent) - Not open-source; included because Intent puts coordinated agents, isolated workspaces, and living specs in one developer workspace.
 
 ## CLI Agent Session Workspaces
