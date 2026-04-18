@@ -8,6 +8,7 @@ The public website is [Open Orchestrators](https://openorchestrators.org/). This
 
 ## Latest Additions
 
+- [Nomad Inno](https://nomadinno.com/) ([X](https://x.com/NomadInnoMT)) - Malta-based AI innovation group helping organizations understand, implement, and scale AI through consulting, custom development, workflow automation, and AI products.
 - [Crewlet](https://www.crewlet.io/) ([X](https://x.com/crewlet_)) - Closed autonomous company OS for a self-improving multi-agent growth team with persistent memory, tool access, human review, and auto-run paths.
 - [Vibe Kanban](https://vibekanban.com/) ([GitHub](https://github.com/BloopAI/vibe-kanban)) - Apache-2.0 Kanban workspace for planning, running, reviewing, previewing, and shipping parallel coding-agent work across Claude Code, Codex, Gemini CLI, OpenCode, and related agents.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - MIT-licensed runtime governance toolkit for AI agents with deterministic policy enforcement, zero-trust identity, execution sandboxing, SRE controls, and compliance checks.
@@ -116,6 +117,7 @@ Tools that are not orchestrators themselves, but make multi-agent systems easier
 
 Services companies and consultants that publish practical material on deploying, hardening, and operating multi-agent systems. These are not orchestrator/player entries.
 
+- [Nomad Inno](https://nomadinno.com/) ([X](https://x.com/NomadInnoMT)) - Malta-based AI innovation group helping organizations understand, implement, and scale AI through consulting, custom development, workflow automation, and AI products.
 - [Agentix Labs](https://www.agentixlabs.com/) - Implementation services and practical writing for teams moving AI agents from pilots into production operations. Public contact details list United States and Canadian offices in New York and Montreal; no explicit worldwide coverage claim is made.
 
 ## Contributing

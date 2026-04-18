@@ -216,6 +216,21 @@ export const governanceTools: OrchestrationToolEntry[] = [
 
 export const implementationServices: OrchestrationToolEntry[] = [
   {
+    slug: "nomad-inno",
+    title: "Nomad Inno",
+    url: "https://nomadinno.com/",
+    sourceName: "Nomad Inno website",
+    mark: "NI",
+    logoSrc: "/logos/nomad-inno.svg",
+    logoAlt: "Nomad Inno logo",
+    summary:
+      "Malta-based AI innovation group helping organizations understand, implement, and scale AI through consulting, development, and products.",
+    note:
+      "Tracked as an implementation services entry, not an orchestrator. Nomad Inno publishes services around AI strategy, responsible AI, custom LLM development, fine-tuning, RAG, system integration, process mapping, workflow automation, and practical AI implementation through Artificial Impact, Peachstone AI, and Systems Impact.",
+    tags: ["implementation services", "Malta", "AI strategy", "responsible AI", "LLM development", "workflow automation"],
+    ctaLabel: "Open service"
+  },
+  {
     slug: "agentix-labs",
     title: "Agentix Labs",
     url: "https://www.agentixlabs.com/",
