@@ -351,6 +351,10 @@ const agnoScreenshots = [
   screenshot("agno", "Agno", "Agno website", "https://agno.com/")
 ];
 
+const agentOfficeSuiteScreenshots = [
+  screenshot("agent-office-suite", "Agent Office Suite", "Agent Office Suite website", "https://www.agentofficesuite.com/")
+];
+
 const mastraScreenshots = [
   screenshot("mastra", "Mastra", "Mastra website", "https://mastra.ai/")
 ];
@@ -1360,6 +1364,58 @@ export const orchestrators: OrchestratorEntry[] = [
       "Instrument the project surface that the Agno system affects. Agent Analytics reads the reported web or product events; it is not a replacement for Agno logs or traces.",
       "Agno-built page, traffic source, signup, install intent, first run, report viewed, or task completed event",
       agnoScreenshots
+    )
+  },
+  {
+    slug: "agent-office-suite",
+    rank: 21,
+    title: "Agent Office Suite",
+    githubRepo: "manpoai/AgentOfficeSuite",
+    accent: "sky",
+    mark: {
+      kind: "image",
+      src: "/logos/agent-office-suite.png",
+      label: "Agent Office Suite logo"
+    },
+    summary:
+      "An Apache-2.0 office suite where AI agents collaborate with humans on docs, databases, slides, and flowcharts through MCP and comments.",
+    note:
+      "Centers orchestration on shared office artifacts: agents can be mentioned, receive contextual tasks, edit content, leave traceable changes, and work through MCP without replacing the user's existing agent.",
+    overview: [
+      "Agent Office Suite, also called AOSE, is an open-source self-hosted office suite for agent collaboration across documents, databases, presentations, and flowcharts.",
+      "It belongs in Open Orchestrators because the product surface is a shared work layer for humans and agents: @mentions, contextual comments, MCP tools, agent registration, approvals, version history, and reversible agent edits.",
+      "The public README documents Claude Code, Codex CLI, Gemini CLI, OpenClaw, and Zylos support, with `aose-main` for the local workspace and `aose-mcp` for agent connection."
+    ],
+    bestFor: ["Agent-collaborative office work", "Docs, tables, slides, and flowcharts", "Traceable agent edits"],
+    tags: ["office suite", "MCP", "documents", "agent collaboration"],
+    links: [
+      {
+        label: "Website",
+        href: "https://www.agentofficesuite.com/",
+        emphasis: "primary"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/manpoai/AgentOfficeSuite"
+      },
+      {
+        label: "Latest release",
+        href: "https://github.com/manpoai/AgentOfficeSuite/releases/tag/v2.0.8"
+      },
+      {
+        label: "npm",
+        href: "https://www.npmjs.com/package/aose-main"
+      }
+    ],
+    screenshots: agentOfficeSuiteScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "agent-office-suite",
+      "Agent Office Suite",
+      "Agent Office Suite gives agents a place to co-create docs, tables, slides, and flowcharts with humans. Agent Analytics measures whether those agent-produced artifacts improve the websites, docs, onboarding flows, demos, or product surfaces they are meant to move.",
+      ["an agent uses Agent Office Suite to create or update a document, table, slide deck, flowchart, launch note, support guide, onboarding plan, or product brief", "the related public surface reports visits, sources, signup, install intent, setup start, task completion, report viewed, or conversion events to Agent Analytics", "the agent fetches Agent Analytics results after the artifact ships or is shared", "the next office artifact or product task is updated from measured user behavior"],
+      "Instrument the project surface affected by the office artifact, not the editor itself. Agent Analytics reads the reported web or product events so the agent can connect planning work to outcome data.",
+      "Agent Office Suite-authored doc, launch note, support guide, onboarding path, traffic source, signup, install intent, task completed, report viewed, or conversion event",
+      agentOfficeSuiteScreenshots
     )
   },
   {
