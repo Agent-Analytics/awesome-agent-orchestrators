@@ -1399,6 +1399,10 @@ export const orchestrators: OrchestratorEntry[] = [
         href: "https://github.com/manpoai/AgentOfficeSuite"
       },
       {
+        label: "Manpo X",
+        href: "https://x.com/manpoai"
+      },
+      {
         label: "Latest release",
         href: "https://github.com/manpoai/AgentOfficeSuite/releases/tag/v2.0.8"
       },
