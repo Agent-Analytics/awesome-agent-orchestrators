@@ -298,6 +298,10 @@ const openClawScreenshots = [
   screenshot("openclaw", "OpenClaw", "OpenClaw website", "https://openclaw.ai/")
 ];
 
+const hermesScreenshots = [
+  screenshot("hermes", "Hermes Agent", "Hermes Agent website", "https://hermes-agent.nousresearch.com/")
+];
+
 const simScreenshots = [
   screenshot("sim", "Sim", "Sim website", "https://www.sim.ai/")
 ];
@@ -813,6 +817,85 @@ export const orchestrators: OrchestratorEntry[] = [
         }
       ]
     )
+  },
+  {
+    slug: "hermes",
+    rank: 23,
+    title: "Hermes Agent",
+    githubRepo: "NousResearch/hermes-agent",
+    accent: "emerald",
+    mark: {
+      kind: "monogram",
+      value: "He",
+      label: "Hermes Agent monogram"
+    },
+    summary:
+      "An MIT-licensed autonomous agent from Nous Research with persistent memory, self-created skills, scheduled automations, subagents, and messaging gateways.",
+    note:
+      "Centers orchestration on a persistent personal agent that learns across sessions, delegates parallel work, runs scheduled tasks, and reaches operators through CLI and chat platforms.",
+    overview: [
+      "Hermes Agent is an open-source autonomous agent from Nous Research that runs on user-controlled infrastructure, remembers what it learns, creates reusable skills, and gets more capable over time.",
+      "The public docs describe a closed learning loop, persistent memory, scheduled automations, subagent delegation, MCP support, full web control, multiple terminal backends, and 15+ messaging platforms through one gateway.",
+      "It belongs in Open Orchestrators because it combines persistent agent memory, skill creation, scheduled operation, multi-platform messaging, and isolated parallel subagents in one agent runtime rather than a one-off chat or IDE copilot."
+    ],
+    bestFor: ["Persistent personal agents", "Scheduled agent operations", "Subagent delegation and messaging gateways"],
+    tags: ["agent runtime", "persistent memory", "skills", "subagents", "MIT"],
+    links: [
+      {
+        label: "Website",
+        href: "https://hermes-agent.nousresearch.com/",
+        emphasis: "primary"
+      },
+      {
+        label: "Docs",
+        href: "https://hermes-agent.nousresearch.com/docs/"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        label: "Nous Research X",
+        href: "https://x.com/NousResearch"
+      },
+      {
+        label: "Teknium X",
+        href: "https://x.com/Teknium"
+      }
+    ],
+    screenshots: hermesScreenshots,
+    agentAnalytics: {
+      heading: "Use Agent Analytics as a Hermes skill",
+      valueProp:
+        "The clean Agent Analytics path for Hermes is the skill route. Install the Agent Analytics skill in the environment where Hermes works, then let Hermes use that skill for login, project creation, event reporting, verification, analytics queries, and recurring growth reports.",
+      measurementLoop: [
+        "install the Agent Analytics skill with `npx skills add Agent-Analytics/agent-analytics-skill`",
+        "Hermes follows the skill to approve login, create or select the project, add the tracker, and verify the first event",
+        "the changed surface reports visits, sources, install intent, signup, activation, retention, funnel, and experiment events to Agent Analytics",
+        "a scheduled Hermes task uses the skill to fetch Agent Analytics results and turn the measured user outcome into the next skill, task, subagent job, or scheduled report"
+      ],
+      setupNotes:
+        "This fits Hermes' skill-centered operating model: Hermes can keep memory, create skills, schedule work, and delegate through subagents while the Agent Analytics skill supplies the product analytics workflow. Agent Analytics measures the user-facing project surface; it does not replace Hermes logs, traces, terminal sessions, or conversation memory.",
+      prompt:
+        "Install the Agent Analytics skill with `npx skills add Agent-Analytics/agent-analytics-skill`. Then set up Agent Analytics for this project. If approval is needed, send me the approval link and wait. After approval, create or select the project, add event reporting, verify the first event arrives, and create a scheduled Hermes report for visits, sources, install intent, signup, activation, retention, funnel drop-off, and the next improvement.",
+      ctaLabel: "Install Agent Analytics skill",
+      ctaHref: "https://github.com/Agent-Analytics/agent-analytics-skill",
+      screenshots: hermesScreenshots,
+      relatedLinks: [
+        {
+          label: "Agent Analytics skill repository",
+          href: "https://github.com/Agent-Analytics/agent-analytics-skill"
+        },
+        {
+          label: "Skills directory",
+          href: "https://skills.sh/"
+        },
+        {
+          label: "Hermes Agent docs",
+          href: "https://hermes-agent.nousresearch.com/docs/"
+        }
+      ]
+    }
   },
   {
     slug: "sim",

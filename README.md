@@ -8,6 +8,7 @@ The public website is [Open Orchestrators](https://openorchestrators.org/). This
 
 ## Latest Additions
 
+- [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/NousResearch/hermes-agent), [Nous Research X](https://x.com/NousResearch), [Teknium X](https://x.com/Teknium)) - MIT-licensed autonomous agent from Nous Research with persistent memory, self-created skills, scheduled automations, subagents, sandboxed execution, and messaging gateways.
 - [Nomad Inno](https://nomadinno.com/) ([X](https://x.com/NomadInnoMT)) - Malta-based AI innovation group helping organizations understand, implement, and scale AI through consulting, custom development, workflow automation, and AI products.
 - [Crewlet](https://www.crewlet.io/) ([X](https://x.com/crewlet_)) - Closed autonomous company OS for a self-improving multi-agent growth team with persistent memory, tool access, human review, and auto-run paths.
 - [Vibe Kanban](https://vibekanban.com/) ([GitHub](https://github.com/BloopAI/vibe-kanban)) - Apache-2.0 Kanban workspace for planning, running, reviewing, previewing, and shipping parallel coding-agent work across Claude Code, Codex, Gemini CLI, OpenCode, and related agents.
@@ -62,6 +63,7 @@ Frameworks and product surfaces for creating agents, teams, workflows, chatflows
 - [Cabinet](https://runcabinet.com/) ([GitHub](https://github.com/hilash/cabinet)) - AI-first knowledge base where files live on disk and agents help with execution.
 - [Dify](https://dify.ai/) ([GitHub](https://github.com/langgenius/dify)) - Agentic workflow builder that combines workflows, chatflows, apps, and knowledge systems.
 - [Flowise](https://flowiseai.com/) ([GitHub](https://github.com/FlowiseAI/Flowise)) - Visual builder for AI agents and orchestration flows.
+- [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/NousResearch/hermes-agent)) - MIT-licensed autonomous agent from Nous Research with persistent memory, self-created skills, scheduled automations, subagents, sandboxed execution, and messaging gateways.
 - [Mastra](https://mastra.ai/) ([GitHub](https://github.com/mastra-ai/mastra)) - TypeScript framework for agents, graph-based workflows, MCP servers, evals, observability, and production AI applications.
 - [OpenClaw](https://openclaw.ai/) ([GitHub](https://github.com/openclaw/openclaw)) - Open-source personal AI assistant software built around chat, persistent context, skills, and execution.
 - [SIDJUA](https://www.sidjua.com/) ([GitHub](https://github.com/GoetzKohlberg/sidjua)) - Governance-first AI agent orchestration platform where policy, approval, budget, classification, and audit checks run before agent actions execute.
