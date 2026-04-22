@@ -21,6 +21,8 @@ This matters for Open Orchestrators readers because it is a real orchestration-s
 
 For operators and builders, the practical implication is more flexible decomposition of work. Recent Hermes repo activity backs that reading with delegation-specific changes around configurable spawn depth, cross-agent file-state coordination for concurrent subagents, explicit width-and-depth documentation, and timeout or stale-execution protection. That combination makes the Hermes subagent system more useful for complex research, debugging, and multi-surface operating loops where one layer of parallelism is not enough.
 
+For the Agent Analytics angle, we also wrote up how the same Hermes subagent model changed our own delegated growth-audit workflow here: [You Can Now Scale Depth as Well as Width With Hermes Subagents. Agent Analytics Got 140% More Growth Bets](https://blog.agentanalytics.sh/blog/hermes-subagent-delegation-agent-analytics/).
+
 Source confidence: High for the existence and framing of the delegation update. The founder announcement is public, the official Hermes docs describe delegation behavior and orchestrator-role depth controls, and the public repository shows fresh delegation-focused code and docs work aligned with the same direction.
 
 Evidence:

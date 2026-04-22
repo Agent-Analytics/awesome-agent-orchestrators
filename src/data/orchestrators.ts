@@ -903,9 +903,9 @@ export const orchestrators: OrchestratorEntry[] = [
     githubRepo: "NousResearch/hermes-agent",
     accent: "emerald",
     mark: {
-      kind: "monogram",
-      value: "He",
-      label: "Hermes Agent monogram"
+      kind: "image",
+      src: "/logos/hermes.png",
+      label: "Hermes Agent logo"
     },
     summary:
       "An MIT-licensed autonomous agent from Nous Research with persistent memory, self-created skills, scheduled automations, subagents, and messaging gateways.",
