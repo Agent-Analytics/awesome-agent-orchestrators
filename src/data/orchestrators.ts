@@ -359,6 +359,10 @@ const mastraScreenshots = [
   screenshot("mastra", "Mastra", "Mastra website", "https://mastra.ai/")
 ];
 
+const openWorkScreenshots = [
+  screenshot("openwork", "OpenWork", "OpenWork website", "https://openworklabs.com/")
+];
+
 const supersetScreenshots = [
   screenshot("superset", "Superset", "Superset website", "https://superset.sh/")
 ];
@@ -1545,6 +1549,72 @@ export const orchestrators: OrchestratorEntry[] = [
       "Instrument the TypeScript app, docs, demo, or product surface where Mastra helps builders ship change. Agent Analytics reads the reported surface events; it is not a replacement for Mastra logs or traces.",
       "Mastra-built app, traffic source, signup, install intent, first workflow run, report viewed, or task completed event",
       mastraScreenshots
+    )
+  },
+  {
+    slug: "openwork",
+    rank: 24,
+    title: "OpenWork",
+    githubRepo: "different-ai/openwork",
+    accent: "violet",
+    mark: {
+      kind: "image",
+      src: "/logos/openwork.svg",
+      label: "OpenWork logo"
+    },
+    summary:
+      "A local-first agent workspace and host layer for teams, with desktop and CLI runtimes, shareable setups, browser control, scheduled tasks, and remote operation.",
+    note:
+      "Centers orchestration on shareable agent setups: local or remote hosts, permissions, browser automation, scheduled prompts, and opencode-powered execution.",
+    overview: [
+      "OpenWork is a local-first, cloud-ready agent workspace for teams, built around a desktop app, a CLI host/orchestrator, shareable skills and configs, and optional remote or cloud workers.",
+      "The public repo and docs describe sessions, live streaming, permission handling, skills, MCP, plugins, browser control, scheduled automations, self-hosting, and team distribution through shared workspaces and skill hubs. The LICENSE file keeps most of the repo under MIT while reserving the /ee directory under a Fair Source license.",
+      "It belongs in Open Orchestrators because the product is not just a chat shell: it is an operating layer for running, sharing, and governing agent workflows across local machines, remote hosts, and team environments."
+    ],
+    bestFor: ["Sharing agent setups across a team", "Local-first agent work with remote hosts", "Browser automation and scheduled workflows"],
+    tags: ["local-first", "desktop", "CLI host", "browser automation", "MCP"],
+    links: [
+      {
+        label: "Website",
+        href: "https://openworklabs.com/",
+        emphasis: "primary"
+      },
+      {
+        label: "Docs",
+        href: "https://openworklabs.com/docs/start-here/get-started"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/different-ai/openwork"
+      },
+      {
+        label: "OpenWork Orchestrator npm",
+        href: "https://www.npmjs.com/package/openwork-orchestrator"
+      }
+    ],
+    screenshots: openWorkScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "openwork",
+      "OpenWork",
+      "OpenWork teams can share repeatable agent setups for browser tasks, outreach, reporting, and internal workflows. Agent Analytics measures whether the customer-facing pages, product paths, and docs those workflows change actually move users.",
+      ["a builder or operator uses OpenWork to run or share a browser task, scheduled workflow, onboarding change, docs update, or product experiment", "the affected website, docs path, signup flow, or app surface reports visits, sources, CTA clicks, signup, activation, retention, or task-completion events to Agent Analytics", "an OpenWork session or follow-up agent fetches the Agent Analytics results after the workflow ships", "the team updates the shared OpenWork setup from measured user behavior instead of only internal task output"],
+      "OpenWork uses opencode-style local skills, so the clean Agent Analytics install path is OpenPackage: `opkg install gh@Agent-Analytics/agent-analytics-skill --skills agent-analytics --platforms opencode`. That installs the public Agent Analytics skill into `.opencode/skills/agent-analytics/` for OpenWork's runtime instead of relying on a generic skills.sh example.",
+      "OpenWork-managed page, docs path, traffic source, CTA click, signup, activation event, retention signal, or workflow outcome",
+      openWorkScreenshots,
+      [
+        {
+          label: "OpenWork docs",
+          href: "https://openworklabs.com/docs/start-here/get-started"
+        },
+        {
+          label: "OpenWork Orchestrator npm",
+          href: "https://www.npmjs.com/package/openwork-orchestrator"
+        },
+        {
+          label: "Agent Analytics skill repo",
+          href: "https://github.com/Agent-Analytics/agent-analytics-skill"
+        }
+      ]
     )
   },
   {
