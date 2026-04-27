@@ -941,25 +941,38 @@ export const orchestrators: OrchestratorEntry[] = [
       }
     ],
     screenshots: nanoClawScreenshots,
-    agentAnalytics: agentAnalyticsSection(
-      "nanoclaw",
-      "NanoClaw",
-      "NanoClaw can run scheduled and chat-driven agent work from a small, container-isolated assistant. Agent Analytics gives those workflows user-facing outcome data after the agent ships changes.",
-      ["a NanoClaw assistant ships a website, docs, onboarding, support, or install-flow change", "the changed surface reports visits, sources, CTA clicks, signup, activation, retention, or task-completion events to Agent Analytics", "a scheduled NanoClaw task fetches the Agent Analytics results", "the assistant reports what moved users toward value and proposes the next container-isolated improvement"],
-      "Install Agent Analytics around the project surface NanoClaw changes first. Agent Analytics measures the website, docs, app, or funnel outcomes; it does not replace NanoClaw memory, container logs, or chat history.",
-      "NanoClaw-managed page, traffic source, CTA click, signup, activation event, retention signal, or scheduled workflow outcome",
-      nanoClawScreenshots,
-      [
+    agentAnalytics: {
+      heading: "Use Agent Analytics from NanoClaw with the OpenClaw skill path",
+      valueProp:
+        "NanoClaw follows the same practical path as OpenClaw: install the Agent Analytics skill from ClawHub, let the assistant create or select the project, add tracking, verify events, and read analytics from the chat loop.",
+      measurementLoop: [
+        "install `clawhub/agent-analytics` in NanoClaw through the same ClawHub skill workflow used for OpenClaw",
+        "NanoClaw uses the skill to approve login, create or select the Agent Analytics project, add the tracker, and verify the first useful event",
+        "the changed surface reports visits, sources, CTA clicks, signup, activation, retention, or task-completion events to Agent Analytics",
+        "a scheduled or chat-driven NanoClaw task fetches the Agent Analytics results and reports what moved users toward value"
+      ],
+      setupNotes:
+        "Use the canonical ClawHub skill, `clawhub/agent-analytics`, rather than a NanoClaw-specific integration. Agent Analytics measures the website, docs, app, or funnel outcomes; it does not replace NanoClaw memory, container logs, chat history, or execution isolation.",
+      prompt:
+        "Install the Agent Analytics skill for me from ClawHub. Use `clawhub/agent-analytics`, install the regular Agent Analytics skill, and tell me when it is ready to use. Then set up Agent Analytics for this project: create or select the project, add tracking, verify the first useful event arrives, and fetch the last 7 days of visits, sources, CTA clicks, signup, activation, and retention signals.",
+      ctaLabel: "Install Agent Analytics skill",
+      ctaHref: "https://clawhub.ai/skills/agent-analytics",
+      screenshots: nanoClawScreenshots,
+      relatedLinks: [
+        {
+          label: "Agent Analytics on ClawHub",
+          href: "https://clawhub.ai/skills/agent-analytics"
+        },
+        {
+          label: "OpenClaw setup article",
+          href: "https://blog.agentanalytics.sh/blog/setup-agent-analytics-with-openclaw"
+        },
         {
           label: "NanoClaw docs",
           href: "https://docs.nanoclaw.dev/"
-        },
-        {
-          label: "Agent Analytics skill repository",
-          href: "https://github.com/Agent-Analytics/agent-analytics-skill"
         }
       ]
-    )
+    }
   },
   {
     slug: "hermes",
