@@ -367,6 +367,10 @@ const openWorkScreenshots = [
   screenshot("openwork", "OpenWork", "OpenWork website", "https://openworklabs.com/")
 ];
 
+const sandcastleScreenshots = [
+  screenshot("sandcastle", "Sandcastle", "Sandcastle GitHub repository", "https://github.com/mattpocock/sandcastle")
+];
+
 const supersetScreenshots = [
   screenshot("superset", "Superset", "Superset website", "https://superset.sh/")
 ];
@@ -1693,6 +1697,53 @@ export const orchestrators: OrchestratorEntry[] = [
           href: "https://github.com/Agent-Analytics/agent-analytics-skill"
         }
       ]
+    )
+  },
+  {
+    slug: "sandcastle",
+    rank: 25,
+    title: "Sandcastle",
+    githubRepo: "mattpocock/sandcastle",
+    accent: "amber",
+    mark: {
+      kind: "image",
+      src: "/logos/sandcastle.png",
+      label: "Sandcastle logo"
+    },
+    summary:
+      "A TypeScript library and CLI for orchestrating AI coding agents in isolated sandbox environments with branch strategies, hooks, logs, templates, and merge-back workflows.",
+    note:
+      "Centers orchestration on programmatic sandboxed coding-agent runs: invoke an agent with `sandcastle.run()`, run it in Docker, Podman, Vercel, Daytona, or a custom provider, and bring the resulting commits back through a branch strategy.",
+    overview: [
+      "Sandcastle is an MIT-licensed TypeScript library and CLI for orchestrating AI coding agents in isolated sandboxes. The README frames the core loop as: invoke agents with `sandcastle.run()`, sandbox the agent with a configurable branch strategy, then merge the commits made on the branch back into the host repo.",
+      "It belongs in Open Orchestrators because it provides a programmable control layer around coding agents: sandbox providers, worktrees, branch strategies, host and sandbox hooks, prompt templates, dynamic context commands, logging, review-pipeline templates, and support for providers such as Claude Code, Codex, and OpenCode."
+    ],
+    bestFor: ["Programmatic coding-agent orchestration", "Sandboxed agent execution", "Review pipelines and merge-back automation"],
+    tags: ["typescript", "coding agents", "sandboxes", "worktrees", "MIT"],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/mattpocock/sandcastle",
+        emphasis: "primary"
+      },
+      {
+        label: "npm",
+        href: "https://www.npmjs.com/package/@ai-hero/sandcastle"
+      },
+      {
+        label: "Latest release",
+        href: "https://github.com/mattpocock/sandcastle/releases/tag/v0.5.5"
+      }
+    ],
+    screenshots: sandcastleScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "sandcastle",
+      "Sandcastle",
+      "Sandcastle can run coding agents in isolated sandboxes and merge their commits back into a project. Agent Analytics measures whether the shipped change improved the user-facing surface after that agent work lands.",
+      ["a Sandcastle run asks Claude Code, Codex, OpenCode, or another coding agent to change a website, docs flow, onboarding path, app surface, demo, or experiment", "the changed surface reports visits, sources, CTA clicks, signup, activation, retention, or task-completion events to Agent Analytics", "a follow-up Sandcastle run or developer agent fetches Agent Analytics results after deployment", "the next sandboxed run is scoped from measured user outcomes instead of only code-level completion"],
+      "Instrument the deployed surface affected by Sandcastle-managed commits. Agent Analytics reads product and web events after the branch ships; it does not replace Sandcastle logs, sandbox traces, branch state, or provider output.",
+      "Sandcastle-managed page, docs path, traffic source, CTA click, signup, activation event, retention signal, or shipped experiment",
+      sandcastleScreenshots
     )
   },
   {
