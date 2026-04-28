@@ -895,6 +895,11 @@ img {
   height: 76px;
 }
 
+.player-hero__mark .directory-card__mark-image {
+  width: 58px;
+  height: 58px;
+}
+
 .player-title,
 .player-panel h2,
 .agent-analytics-section h2 {
