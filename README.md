@@ -116,6 +116,7 @@ Policy, permission, approval, budget, trust, reputation, settlement, and audit l
 - [Code Atelier Governance SDK](https://www.codeatelier.tech/governance) - Python SDK for pre-execution governance gates around AI agents, backed by Postgres.
 - [Veto](https://veto.so/) ([GitHub](https://github.com/PlawIO/veto)) - Apache-2.0 authorization layer for AI agent tool calls, with TypeScript and Python SDKs, YAML policies, approval routing, and audit logs. Veto Cloud is commercial.
 - [SettleBridge](https://settlebridge.ai/) ([GitHub org](https://github.com/a2a-settlement)) - Trust and policy gateway for agent-to-agent settlement, including reputation thresholds, spending limits, provenance requirements, escrow, dispute resolution, marketplace bounties, and cryptographic audit trails. The related A2A Settlement repo is MIT-licensed; SettleBridge's public license metadata is not fully consistent yet.
+- [Okto Pulse](https://oktolabs.ai/platform/pulse/) ([GitHub](https://github.com/OktoLabsAI/okto-pulse)) - Elastic-2.0 local-first SDLC workbench with 17 enforced governance gates for AI coding agents, including independent validation, blocking evidence requirements, and spec-coverage checks before work reaches done.
 
 ### Commercial and platform governance layers
 
