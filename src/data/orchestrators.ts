@@ -430,6 +430,14 @@ const agentRqScreenshots = [
   }
 ];
 
+const readyAgentsScreenshots = [
+  {
+    ...screenshot("readyagents", "ReadyAgents", "ReadyAgents website", "https://readyagents.dev/"),
+    src: "/images/players/readyagents/readyagents-platform-context.png"
+  }
+];
+
+
 export const orchestrators: OrchestratorEntry[] = [
   {
     slug: "superset",
@@ -943,6 +951,64 @@ export const orchestrators: OrchestratorEntry[] = [
       agentRqScreenshots
     )
   },
+
+  {
+    slug: "readyagents",
+    rank: 31,
+    title: "ReadyAgents",
+    githubRepo: "readyagents/readyagents-core",
+    accent: "cyan",
+    mark: {
+      kind: "monogram",
+      value: "RA",
+      label: "ReadyAgents monogram"
+    },
+    summary:
+      "An Apache-2.0 local one-shot YAML/JSON agent workflow CLI with tools, approvals, resume, and an optional stdio MCP server (BYOK).",
+    note:
+      "Centers orchestration on declarative local agent workflows run once from YAML/JSON, with human approvals and resume, plus optional stdio MCP serve — not a hosted control plane.",
+    overview: [
+      "ReadyAgents is a free self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit; clone or pip install readyagents, bring your own keys.",
+      "It belongs because public docs center YAML/JSON workflow runs, approvals, resume, and optional MCP tool serving rather than a single chat session.",
+      "Always-on packs are waitlisted and not for sale."
+    ],
+    bestFor: ["Local one-shot YAML/JSON agent workflows", "Approvals and resume", "Optional stdio MCP serve"],
+    tags: ["YAML", "CLI", "MCP", "BYOK", "Apache-2.0", "local", "open source"],
+    links: [
+      {
+        label: "Website",
+        href: "https://readyagents.dev/",
+        emphasis: "primary"
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/readyagents/readyagents-core"
+      },
+      {
+        label: "PyPI",
+        href: "https://pypi.org/project/readyagents/"
+      },
+      {
+        label: "Docs",
+        href: "https://readyagents.dev/docs"
+      },
+      {
+        label: "Why ReadyAgents",
+        href: "https://readyagents.dev/why-readyagents"
+      }
+    ],
+    screenshots: readyAgentsScreenshots,
+    agentAnalytics: agentAnalyticsSection(
+      "readyagents",
+      "ReadyAgents",
+      "ReadyAgents runs local YAML/JSON agent workflows to completion, with approvals and resume. Agent Analytics can add post-deployment behavior data when a ReadyAgents-produced change ships to a separately instrumented surface.",
+      ["a ReadyAgents workflow produces or reviews a user-facing change using local tools and optional MCP", "the change ships to a website, docs site, app, or product surface", "the changed surface reports visits, sources, CTA clicks, signup, activation, retention, funnels, and experiment events to Agent Analytics", "a later ReadyAgents run or operator review asks an agent to fetch Agent Analytics results and decide what to improve next"],
+      "Install Agent Analytics on the project surfaces ReadyAgents workflows change. Agent Analytics measures user behavior after deployment; it is not a replacement for ReadyAgents local workflow runs, approvals, resume, or stdio MCP serve.",
+      "ReadyAgents workflow path, docs page, traffic source, CTA click, signup, activation event, approval gate, or shipped change",
+      readyAgentsScreenshots
+    )
+  },
+
   {
     slug: "paperclip",
     rank: 2,
