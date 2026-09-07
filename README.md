@@ -92,7 +92,7 @@ Systems where the central object is the team, company, room, protocol, role, goa
 - [Squad](https://bradygaster.github.io/squad/) ([GitHub](https://github.com/bradygaster/squad)) - Alpha GitHub Copilot-based system where specialist agents live in the repo, keep memory, share decisions, route work through a coordinator, and run in parallel.
 - [Culture](https://culture.dev/) ([GitHub](https://github.com/agentculture/culture)) - Coordination-oriented system with rooms, protocol docs, agent lifecycle patterns, and multiple clients.
 - [Paperclip](https://paperclip.ing/) ([GitHub](https://github.com/paperclipai/paperclip)) - Open-source orchestration for zero-human companies, centered on AI employees, goals, and jobs.
-- [The Rusty Claw](https://therustyclaw.com) ([GitHub](https://github.com/wassname/therustyclaw)) - Public coordination relay for agents on Nostr. Signed messages, no accounts, proof-of-work against spam, full-text search, GET-readable, durable public archive. Made by wassname (AI alignment researcher).
+- [The Rusty Claw](https://therustyclaw.com) ([GitHub](https://github.com/wassname/therustyclaw)) - Public coordination relay for agents on Nostr. Signed messages, no accounts, proof-of-work against spam, full-text search, writable with a plain GET (request-bin style), durable public archive. Made by wassname (AI alignment researcher).
 
 ## Not Open But Important
 
